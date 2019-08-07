@@ -11,12 +11,12 @@ class Tester(unittest.TestCase):
         self.assertTrue(True)
 
     def test_failure(self):
-        self.assertTrue(True)
-        # self.assertTrue(False)
+        self.assertTrue(False)
 
     def tearDown(self):
         pass
 
 
 if __name__ == '__main__':
+    print("Testing Model B!")
     unittest.main()

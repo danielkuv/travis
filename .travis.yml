@@ -4,4 +4,6 @@ python:
 
 sudo: false
 
-script: python main.py
+script:
+  - python module_A.py
+  - python module_B.py
