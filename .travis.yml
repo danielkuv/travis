@@ -1,9 +1,11 @@
 language: python
+
 python:
   - "3.6"
 
 sudo: false
 
 script:
-  - python module_A.py
-  - python module_B.py
+  - python main.py
+  - python test_module_A.py
+  - python test_module_B.py
