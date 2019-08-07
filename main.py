@@ -19,5 +19,5 @@ class TestStringMethods(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    print("Testing main!!!")
+    print("Testing main!")
     unittest.main()
