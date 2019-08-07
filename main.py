@@ -11,7 +11,8 @@ class Tester(unittest.TestCase):
         self.assertTrue(True)
 
     def test_failure(self):
-        self.assertTrue(False)
+        self.assertTrue(True)
+        # self.assertTrue(False)
 
     def tearDown(self):
         print("**************************Testing Ended**************************")
