@@ -4,7 +4,4 @@ python:
 
 sudo: false
 
-services:
-  - docker
-
 script: python main.py
