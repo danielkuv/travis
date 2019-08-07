@@ -5,10 +5,10 @@ import unittest
 class Tester(unittest.TestCase):
 
       def test_success(self):
-        self.assertTrue()
+        self.assertTrue(True)
 
       def test_failure(self):
-        self.assertFalse()
+        self.assertTrue(False)
 
 
 if __name__ == '__main__':
